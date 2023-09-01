@@ -1,0 +1,75 @@
+.dashboardContainer {
+  width: 100%;
+  height: 500px;
+  background-color: #f9f9f9;
+}
+.totalContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+.dummyContainer {
+  width: 50%;
+}
+.totalContainer .count {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.totalContainer .count p {
+  margin-block: auto;
+}
+.totalContainer .count button {
+  background-color: #46a6ff;
+  border: none;
+  font-weight: bolder;
+  color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}
+.totalContainer .count input {
+  width: 200px;
+}
+.headingTable {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.headingTable table {
+  width: 95%;
+  background-color: white;
+  border-collapse: collapse;
+}
+.headingTable table th {
+  color: #e47579;
+  border: 2px solid #e5e8eb;
+  width: 9%;
+  height: 30px;
+}
+.dataTable {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.dataTable table {
+  width: 95%;
+  background-color: white;
+  border-collapse: collapse;
+}
+.dataTable table td {
+  border: 2px solid #e5e8eb;
+  width: 9%;
+  text-align: center;
+  height: 40px;
+}
+#email {
+  font-size: 13px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}

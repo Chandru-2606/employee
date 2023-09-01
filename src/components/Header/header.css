@@ -1,0 +1,52 @@
+.headerContainer {
+  width: 100;
+}
+.logoContainer {
+  width: 100%;
+  background-image: url(./../../Images/logo.png);
+  background-position: left;
+  background-size: 120px;
+  background-repeat: no-repeat;
+  height: 40px;
+  background-color: #1b4a86;
+}
+
+.headerContainer .container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  background-color: #f2f2f2;
+}
+.headerContainer .container a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
+  color: #8a80b9;
+  font-size: 20px;
+}
+.headerContainer .container p {
+  font-weight: bolder;
+  color: #8a80b9;
+  font-size: 18px;
+}
+.headerContainer .container button {
+  height: 20px;
+  width: 70px;
+  margin-top: 20px;
+  border: none;
+  background-color: #fbf6f6;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #8a80b9;
+  font-size: 18px;
+}
+.containerName {
+  height: 30px;
+  width: 100%;
+}
+.containerName a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bolder;
+}

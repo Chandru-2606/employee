@@ -1,0 +1,44 @@
+.cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  height: 520px;
+}
+fieldset {
+  width: auto;
+  margin-top: 50px;
+  height: 380px;
+  background-color: white;
+}
+.cardContainer table {
+  width: 100%;
+}
+.cardContainer table tr {
+  line-height: 2.5;
+}
+
+.cardContainer table td {
+  font-weight: bolder;
+}
+.cardContainer table select {
+  width: 82%;
+  height: 25px;
+}
+.inputCards {
+  width: 80%;
+  height: 20px;
+}
+.cardContainer table button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: #46a6ff;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.errorCards {
+  color: red;
+}
